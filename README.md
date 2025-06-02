@@ -30,8 +30,8 @@ For a complete walkthrough of this integration, watch our detailed tutorial:
 ### 1. Clone the Repository
 
 ```shell
-git clone https://github.com/solana-developers/solana-templates
-cd solana-templates/legacy-alerts-tutorial
+git clone https://github.com/bjoerndotsol/alerts-tutorial-v2
+cd alerts-tutorial-v2
 ```
 
 ### 2. Install Dependencies
