@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+.wallet-adapter-button-trigger {
+  background: rgb(100, 26, 230) !important;
+  border-radius: 8px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+.wallet-adapter-dropdown-list,
+.wallet-adapter-button {
+  font-family: inherit !important;
+}
+
+.dialect {
+  --dt-accent-brand: #3182ce;
+  /* blue.500 */
+  --dt-bg-primary: #ffffff;
+  --dt-bg-secondary: #f7fafc;
+  /* gray.50 */
+  --dt-text-primary: #1a202c;
+  /* gray.800 */
+  --dt-border-radius-xs: 0.125rem;
+  /* xs */
+  --dt-border-radius-s: 0.25rem;
+  /* sm */
+  --dt-border-radius-m: 0.375rem;
+  /* md */
+  --dt-border-radius-l: 0.5rem;
+  /* lg */
+}
+
+/* Step component styles */
+.step {
+  @apply flex items-center gap-3;
+}
+
+.step-number {
+  @apply inline-flex items-center justify-center w-6 h-6 bg-primary text-primary-content rounded-full text-sm font-bold;
+}
